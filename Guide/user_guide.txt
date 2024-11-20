@@ -1,0 +1,15 @@
+Project-Friend-Bot/
+├── env
+├── data/
+│   ├── jokes.json
+│   ├── facts.json
+├── modules/
+│   ├── joke_module.py
+│   ├── mood_module.py
+├── app.py
+├── static/
+│   ├── scripts.js
+│   ├── style.css
+├── templates/
+│   ├── index.html
+└── README.md

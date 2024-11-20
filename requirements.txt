@@ -1,0 +1,6 @@
+nltk
+transformers
+
+#virtual env
+# creation - venv env
+# activation - .\env\Scripts\activate.ps1 

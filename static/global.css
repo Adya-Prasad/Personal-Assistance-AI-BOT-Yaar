@@ -1,0 +1,68 @@
+/* THIS IS GLOBAL CSS FOR ACROSS WHOLE SITE */
+
+/* Head Section */
+
+header{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(143, 128, 197, 0.8);
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    align-items: center;
+
+}
+.menu ul li{
+    list-style: none;
+    padding: 0px 15px;
+    align-content: center;
+    align-items: center;
+    font-weight: 700;
+    color:#2828a1;
+
+}
+
+.logo img{
+    width: 80px;
+    margin: 5px;
+}
+
+/* headings */
+
+h1 {
+    text-align: center;
+    margin: 100px 0px;
+    font-size: 55px;
+    color: #2828a1;
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+    color: #37005c;
+    margin: 10px;
+}
+
+/* footer */
+
+/* Footer Section */
+
+footer{
+    display: block;
+    margin: 0;
+    width: 80%;
+    text-align: center;
+    color: white;
+    align-items: center;
+    align-self: center;
+}
+

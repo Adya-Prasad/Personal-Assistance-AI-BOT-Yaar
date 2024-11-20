@@ -1,0 +1,200 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #d8d7d7, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #d9d4f3, #a79dd9, #7475c7, #603cc0, #2828a1);
+    font-family: Inter;
+}
+
+
+#chat-container {
+    width: 70%;
+    border: 2px solid rgba(148, 107, 151, 0.3);
+    border-radius: 8px;
+    background: #f3f3f780;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#chat-box {
+    display: block;
+}
+
+.bot-message{
+    width: 70%;
+    background-color: #e8c4ff7a;
+    padding: 10px 5px;
+    margin: 5px 0px;
+    border-radius: 0px 7px 7px 7px;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    max-width: 75%;
+}
+
+.message.bot {
+    background-color: #e6ccff;
+    color: #333;
+    align-self: flex-start;
+    border-top-left-radius: 0;
+}
+
+.message.user {
+    background-color: #cceeff;
+    color: #333;
+    align-self: flex-end;
+    text-align: right;
+    border-top-right-radius: 0;
+}
+
+.cenzo-ai{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    height: 500px;
+    overflow: hidden;
+}
+#user-input {
+    width:90%;
+    margin: 5px;
+    padding: 15px 10px;
+    background: rgba(191, 183, 199, 0.2);
+border-radius: 8px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(191, 183, 199, 0.4);
+}
+
+#send-button{
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    align-items: end;
+    font-weight: 600;
+    font-size: 15px;
+    justify-content: right;
+    margin: 10px;
+    background: linear-gradient(135deg, #2828a1, #312198, #361a8e, #391384, #3b0d7a, #3a0770, #390266, #37005c);
+    border-radius: 6px;
+    box-shadow: 2px 8px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+
+}
+
+#joke-button {
+    background: transparent;
+    color: #37005c;
+    border: 2px solid #37005c;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 10px;
+    box-shadow: 2px 8px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+
+#moods-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.mood-option {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mood-option:hover {
+    background-color: #e0e0e0;
+}
+
+.mood-option.selected {
+    color: white;
+    background: linear-gradient(135deg, #2828a1b4, #312198b4, #361a8eb4, #391384b4, #3b0d7ab4, #3a0770b4, #390266b4, #37005cb4);
+    border-radius: 6px;
+    box-shadow: 2px 8px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+/* feature container */
+
+#bot-task{
+    font-size: 1.8rem;
+    margin: 20px 0px 4px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.features-container{
+    width: 70%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.feature-box{
+    margin: 20px;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+label{
+    width: 85%;
+    font-size: 0.9rem;
+    color: #302631;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 12px 2px;
+    border-radius: 4px;
+    border: none;
+    margin: auto;
+ 
+}
+
+.peach-box{
+    background-color: #d46a6a6b;
+    border: 1px solid #d46a6a;
+
+}
+
+.green-box{
+    background-color: #fceda56b;
+    border: 1px solid #fceda5;
+
+}

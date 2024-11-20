@@ -1,0 +1,18 @@
+{
+    "happy": [
+        "Keep smiling! It makes people wonder what you're up to.",
+        "The best way to cheer yourself up is to try to cheer somebody else up."
+    ],
+    "sad": [
+        "It's okay to be sad sometimes. Just remember, this too shall pass.",
+        "Sometimes you need to take a break and be sad for a while."
+    ],
+    "neutral": [
+        "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        "Every day may not be good, but there's something good in every day."
+    ],
+    "love":[
+        "May be you are in Love, who is your dream prince/priness?",
+        "Let's have a drink of dream of a lovely spend moments"
+    ]
+}

@@ -1,0 +1,69 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/index.css">
+    <link rel="stylesheet" href="../static/global.css">
+    <title>VibesMatch Bots | Your Personal Buddy</title>
+</head>
+<body>
+
+    {% include 'header.html' %} <!-- Includes the header -->
+
+    <h1>Meet VibesMatch's Personal Bot: Yaar</h1>
+        
+    <div id="chat-container">  
+        <h2>Start talking with your Yaar!</h2>      
+        <div id="moods-container">
+            <button class="mood-option" onclick="setMood('happy', event)">😊 Happy</button>
+            <button class="mood-option" onclick="setMood('sad', event)">😢 Sad</button>
+            <button class="mood-option" onclick="setMood('neutral', event)">😐 Neutral</button>
+            <button class="mood-option" onclick="setMood('love', event)">❤️ Love</button>
+        </div>
+
+        <div class="cenzo-ai">
+            <div id="chat-box">
+                <input type="text" id="user-input" placeholder="Type Here to Chat..." />
+            </div>
+        </div>
+        <div id="buttons-container">
+            <button id="send-button">Talk</button>
+            <button id="joke-button">Have a Joke Yaar!</button>
+        </div>
+    </div>
+    <div class="features-container">
+        <h2 id="bot-task">Add Some Tasks for Your Bot</h2>
+        <div class="feature-box green-box">
+            <label for="study">Automate Your Local Device Task</label>
+            <input type="text" name="study" id="study">
+            <button id="send-button">Start</button>
+        </div>
+        <div class="feature-box peach-box">
+            <label for="todo">Do Brainstorming: Creativity, Innovation, Entrepreneurship</label>
+            <input type="text" name="todo" id="todo">
+            <button id="send-button">Start</button>
+        </div>
+        <div class="feature-box green-box">
+            <label for="study">Add a TO DO</label>
+            <input type="text" name="study" id="study">
+            <button id="send-button">Submit</button>
+        </div>
+        <div class="feature-box peach-box">
+            <label for="reminder">Add a Study Reminder</label>
+            <input type="text" name="reminder" id="reminder">
+            <button id="send-button">Add</button>
+        </div>
+        <div class="feature-box green-box">
+            <label for="keypoint">Add any Keypoint</label>
+            <input type="text" name="keypoint" id="keypoint">
+            <button id="send-button">Add</button>
+        </div>
+        
+    </div>
+    {% include 'footer.html' %} <!-- Include footer -->
+
+    <script src="../static/scripts.js"></script>
+</body>
+</html>
